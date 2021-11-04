@@ -49,14 +49,14 @@ int main() {
 	int const n = 10;
 	int a[n];
 	ar(a, n);
-	cout << " 1 çàäàíèå:" << endl;
+	cout << " 1 Ğ·Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ:" << endl;
 	print_array1(a, n);
 	int array[n];
 	srand(time(0));
-	cout << " 2 çàäàíèå:" << endl;
+	cout << " 2 Ğ·Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ:" << endl;
 	random_array(a, n);
 	print_array(a, n);
-	cout << endl << " 3 çàäàíèå:" << endl;
+	cout << endl << " 3 Ğ·Ğ°Ğ´Ğ°Ğ½Ğ¸Ğµ:" << endl;
 	Scan_array(array, n);
 	Print_array(array, n);
 	return 0;
